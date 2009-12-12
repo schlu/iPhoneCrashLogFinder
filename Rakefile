@@ -2,8 +2,11 @@ desc "Make a release"
 task :release do
   setup
   puts %x{xcodebuild -project CrashLogFinder.xcodeproj -configuration Release}
-  puts %x{zip -r iPhoneCrashLogFinder_#{get_version.gsub(".", "_")}.zip build/Release/iPhoneCrashLogFinder.app}
+  mv "build/Release/iPhoneCrashLogFinder.app", "."
+  puts %x{zip -r iPhoneCrashLogFinder_#{get_version.gsub(".", "_")}.zip iPhoneCrashLogFinder.app}
   mv "iPhoneCrashLogFinder_#{get_version.gsub(".", "_")}.zip", "dist"
+  rm_r "iPhoneCrashLogFinder.app"
+  FileUtils.ln_s("iPhoneCrashLogFinder_#{get_version.gsub(".", "_")}.zip", "dist/iPhoneCrashLogFinder_latest.zip")
 end
 
 def setup
