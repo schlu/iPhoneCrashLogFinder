@@ -29,7 +29,7 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* CrashLogFinder-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CrashLogFinder-Info.plist"; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* CrashLogFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashLogFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* iPhoneCrashLogFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneCrashLogFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* CrashLogFinder.app */,
+				8D1107320486CEB800E47090 /* iPhoneCrashLogFinder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 			name = CrashLogFinder;
 			productInstallPath = "$(HOME)/Applications";
 			productName = CrashLogFinder;
-			productReference = 8D1107320486CEB800E47090 /* CrashLogFinder.app */;
+			productReference = 8D1107320486CEB800E47090 /* iPhoneCrashLogFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -225,7 +225,7 @@
 				GCC_PREFIX_HEADER = CrashLogFinder_Prefix.pch;
 				INFOPLIST_FILE = "CrashLogFinder-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = CrashLogFinder;
+				PRODUCT_NAME = iPhoneCrashLogFinder;
 				SDKROOT = macosx10.5;
 			};
 			name = Debug;
