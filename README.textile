@@ -17,5 +17,8 @@ The UI doesn't work exactly as you would expect. The table rows aren't selectabl
 
 h2. License 
 
-This code is licensed without limitation under the MIT License without restriction. Any damage caused by iPhoneCrashlogFinder is not the fault of its developers or contributors.
+This code is licensed without limitation under the MIT License without restriction. Any damage caused by iPhoneCrashLogFinder is not the fault of its developers or contributors.
 
+h2. Created By
+
+Nicholas Schlueter
