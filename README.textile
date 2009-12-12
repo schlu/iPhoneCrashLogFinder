@@ -1,0 +1,21 @@
+h1. iPhone Crashlog Finder
+
+h2. Purpose
+
+An application that helps iPhone developers get crashlog files from users. Currently poorly tested on Mac OS 10.5/10.6. Please contact me if you can build a windows version, I would either like to include the source in this repo or a link in the installation section.
+
+h2. Installation and Instructions
+
+* Give your users this "url":http://github.com/schlueter/iPhoneCrashLogFinder/raw/master/dist/iPhoneCrashLogFinder_latest.zip
+* They will be able to search for your application
+* zip files button creates a zip file in the Documents directory and opens it in Finder
+* Then they can email that zip file to you
+
+h2. Limitations
+
+The UI doesn't work exactly as you would expect. The table rows aren't selectable, pull requests welcome :) I am an iPhone developer with *no* Mac OS development experience, please be constructive with your criticisms (but please send them).
+
+h2. License 
+
+This code is licensed without limitation under the MIT License without restriction. Any damage caused by iPhoneCrashlogFinder is not the fault of its developers or contributors.
+
